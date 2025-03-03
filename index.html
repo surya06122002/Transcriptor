@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Audio Transcriptor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Real-time Audio Transcriptor</h1>
+        <div id="status" class="status not-recording">Status: Not Recording</div>
+        <div id="transcripts"></div>
+        <div id="controls">
+            <div>
+
+                <button id="toggleButton"><i class="fa-solid fa-microphone"></i></button>
+            </div>
+            <div>
+
+                <button id="clearButton"><i class="fa-solid fa-trash-can"></i></button>
+            </div>
+            <div>
+
+                <button id="downloadButton"><i class="fa-solid fa-download"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="TS.js"></script>
+</body>
+
+</html>
